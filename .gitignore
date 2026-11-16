@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.env*
+results/
+outputs/
+inputs/
+*.tar.gz
+*.zip
+.DS_Store
+.cache/

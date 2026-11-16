@@ -1,0 +1,92 @@
+[
+  {
+    "id": "CP1",
+    "dimension": "Task Fulfillment / Compliance",
+    "criterion": "Required content is present.",
+    "answers": {
+      "Yes": "Present",
+      "No": "Missing"
+    },
+    "compliance_groups": [
+      "content"
+    ],
+    "benchmark_source": "vas"
+  },
+  {
+    "id": "CP2",
+    "dimension": "Task Fulfillment / Compliance",
+    "criterion": "The requested file format is delivered.",
+    "answers": {
+      "Yes": "Correct format",
+      "No": "Incorrect format"
+    },
+    "compliance_groups": [
+      "delivery"
+    ],
+    "benchmark_source": "vas"
+  },
+  {
+    "id": "C1",
+    "dimension": "Content",
+    "criterion": "Quality of the delivered artifact.",
+    "weight": 1,
+    "answers": {
+      "-3": "-3",
+      "-2": "-2",
+      "-1": "-1",
+      "0": "0",
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "benchmark_source": "vas"
+  },
+  {
+    "id": "O1",
+    "dimension": "Organization",
+    "criterion": "Quality of the delivered artifact.",
+    "weight": 1,
+    "answers": {
+      "-3": "-3",
+      "-2": "-2",
+      "-1": "-1",
+      "0": "0",
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "benchmark_source": "vas"
+  },
+  {
+    "id": "V1",
+    "dimension": "Visuals",
+    "criterion": "Quality of the delivered artifact.",
+    "weight": 1,
+    "answers": {
+      "-3": "-3",
+      "-2": "-2",
+      "-1": "-1",
+      "0": "0",
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "benchmark_source": "vas"
+  },
+  {
+    "id": "D1",
+    "dimension": "Delivery",
+    "criterion": "Quality of the delivered artifact.",
+    "weight": 1,
+    "answers": {
+      "-3": "-3",
+      "-2": "-2",
+      "-1": "-1",
+      "0": "0",
+      "1": "1",
+      "2": "2",
+      "3": "3"
+    },
+    "benchmark_source": "vas"
+  }
+]

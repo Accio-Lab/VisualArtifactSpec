@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">VisualArtifactSpec 1.0</title>
+  <desc id="desc">Evaluating Visual Artifacts under Task Specifications. 211 tasks, 4 artifact families, 14 task types, and 8 application purposes.</desc>
+  <rect width="1200" height="300" rx="14" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="brand" x1="0" x2="1"><stop stop-color="#8d35ed"/><stop offset=".5" stop-color="#6630e6"/><stop offset="1" stop-color="#223bd5"/></linearGradient>
+  </defs>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" text-anchor="middle">
+    <text x="600" y="34" fill="#737086" font-size="12" font-weight="600" letter-spacing="2.4">A BENCHMARK FOR VISUAL ARTIFACT AUTHORING</text>
+    <text x="600" y="105" fill="url(#brand)" font-size="59" font-weight="750" letter-spacing="-2">VisualArtifactSpec <tspan font-size="36" font-weight="500" letter-spacing="-1">1.0</tspan></text>
+    <text x="600" y="151" fill="#656379" font-size="24">Evaluating Visual Artifacts under Task Specifications</text>
+    <path d="M150 190H1050" stroke="#d9d4e9"/>
+    <g fill="#6630c5" font-size="30" font-weight="650">
+      <text x="240" y="238">211</text><text x="480" y="238">4</text><text x="720" y="238">14</text><text x="960" y="238">8</text>
+    </g>
+    <g fill="#737086" font-size="13">
+      <text x="240" y="265">Source-grounded tasks</text><text x="480" y="265">Artifact families</text><text x="720" y="265">Task types</text><text x="960" y="265">Application purposes</text>
+    </g>
+    <path d="M360 216V264M600 216V264M840 216V264" stroke="#d9d4e9"/>
+  </g>
+</svg>

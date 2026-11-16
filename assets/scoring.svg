@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="192" viewBox="0 0 1200 192" role="img" aria-labelledby="title desc">
+<title id="title">From fulfillment and performance to the final score</title>
+<desc id="desc">Base B ranges from zero to fifty. Performance adjustment delta ranges from minus fifty to plus fifty. S equals B plus delta, ranges from minus fifty to one hundred, and passes at fifty. Negative scores are retained.</desc>
+<rect width="1200" height="192" rx="16" fill="#f7f8fa"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="28" y="26" width="4" height="72" rx="2" fill="#408579"/>
+<text x="48" y="42" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#39796f">TASK FULFILLMENT</text>
+<text x="48" y="80" font-size="25" font-weight="700" fill="#243849">Base</text>
+<text x="126" y="80" font-size="19" fill="#39796f">0–50</text>
+<text x="332" y="78" font-size="27" font-weight="400" fill="#8a949e">+</text>
+<rect x="410" y="26" width="4" height="72" rx="2" fill="#ba6151"/>
+<text x="430" y="42" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#ad584b">ARTIFACT PERFORMANCE</text>
+<text x="430" y="80" font-size="25" font-weight="700" fill="#243849">Adjustment</text>
+<text x="588" y="80" font-size="19" fill="#ad584b">−50 to +50</text>
+<text x="826" y="78" font-size="27" font-weight="400" fill="#8a949e">=</text>
+<text x="924" y="42" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#647585">FINAL SCORE</text>
+<text x="924" y="80" font-size="25" font-weight="700" fill="#243849">S = B + Δ</text>
+<text x="48" y="104" font-size="13" fill="#647585">All-pass groups, equally weighted</text>
+<text x="430" y="104" font-size="13" fill="#647585">Ratings mapped before weighting</text>
+<text x="924" y="104" font-size="13" fill="#647585">Fulfillment + contextual quality</text>
+<path d="M28 120H1172" stroke="#dde3e8"/>
+<text x="48" y="161" font-size="16" fill="#576979">Range <tspan font-weight="700" fill="#243849">−50 to 100</tspan></text>
+<text x="430" y="161" font-size="16" fill="#576979">Pass <tspan font-weight="700" fill="#243849">S ≥ 50</tspan></text>
+<text x="924" y="161" font-size="16" fill="#576979">Negative totals retained</text>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vas-bench"
+version = "0.4.1"
+description = "VAS Bench local Judge harness and scoring tools"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = []
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Accio-Lab/VisualArtifactSpec"
+Issues = "https://github.com/Accio-Lab/VisualArtifactSpec/issues"
+Dataset = "https://huggingface.co/datasets/Accio-Lab/VisualArtifactSpec"
+
+[project.scripts]
+vas-bench = "vas_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vas_bench = ["judge_protocol.md"]
