@@ -7,7 +7,7 @@
   &nbsp;
   <a href="https://huggingface.co/datasets/Accio-Lab/VisualArtifactSpec"><img src="https://img.shields.io/badge/Dataset-Hugging_Face-D99A24?style=plastic&amp;logo=huggingface&amp;logoColor=white" height="27" alt="Hugging Face Dataset"></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Paper-Coming_Soon-B31B1B?style=plastic&amp;logo=arxiv&amp;logoColor=white" height="27" alt="Paper: Coming soon">
+  <a href="https://arxiv.org/abs/2611.21382"><img src="https://img.shields.io/badge/Report-2611.21382-B31B1B?style=plastic&amp;logo=arxiv&amp;logoColor=white" height="27" alt="Report: arXiv 2611.21382"></a>
 </p>
 
 <p align="center">
@@ -228,6 +228,22 @@ VAS_TEST_DOCKER=1 python -m unittest discover -s tests -p test_docker_integratio
 Docker integration uses a mock model API and does not incur model charges.
 
 </details>
+
+## Citation
+
+If you use VisualArtifactSpec in your research, please cite our [report](https://arxiv.org/abs/2611.21382):
+
+```bibtex
+@misc{ouyang2026visualartifactspec10evaluatingvisual,
+  title={VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications},
+  author={Shuyi Ouyang and Xiaojun Tang and Zijian Zou and Xintong Zhang and Mingli Song and Guannan Zhang and Hongwei Xue},
+  year={2026},
+  eprint={2611.21382},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2611.21382},
+}
+```
 
 ## License
 
